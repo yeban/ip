@@ -1,0 +1,81 @@
+Assignment 2
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+Deadline: October 1st Week 2009. 
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+
+
+========================================
+OBJECTIVES: 
+========================================
+
+Implement the basic FREQUENCY DOMAIN FILTERING METHOD using the steps given in
+Section 4.7.3 of your textbook and demonstrate the
+following types of filters. 
+
+1. Butterworth low pass filter
+2. Butterworth high pass filter
+3. Ideal low pass filter 
+4. Ideal high pass filter
+5. Laplacian filter
+
+Each of these operations must be implemented as a separate function accepting
+parameters related to the input image array, the filter array
+image), the filter parameter(s) or cutoffs, and the output image to be returned. 
+
+Demonstrate periodic noise filtering by implementing 
+
+1. Notch reject filters
+2. Band reject filters. 
+
+It should be possible to specify the location of the notch filter
+interactively by locating the frequency spike in the Fourier spectrum and
+placing the notch reject filter over there. 
+
+
+========================================
+INTERFACE to the software: 
+========================================
+
+The interface to the software will be through a specification file. 
+Your program will read the specification file and do the specified task, 
+and dump the processed output results in specified files. 
+
+The input format in the specification file is as follows. 
+
+Input image file name: 
+Filter Specs: [BL/ BH/ IL/ IH/ L/ NR/ BR/] 
+Output file name: 
+Radius/ Cutoff/ Filter parameter: 
+Order of the filter: 
+
+
+
+===========================================
+WHEN YOU COME TO GIVE YOUR DEMO
+===========================================
+
+1. You should keep multiple such specification files ready. Each file should
+be given a different name. 
+
+2. Be ready with the explanations for your results. 
+
+3. Your source code will be checked. Hence you need to submit your source
+code. 
+
+4. Do not make changes in your program while giving the demo. 
+
+5. Demonstration has to be made on Fedora 10 platform with OpenCV 1.0 (the
+Desktop in my office). 
+
+6. The program should be run on the illustrative examples shown in the book.
+All input arrays of binary images used in the book should be specified as 2-D
+array of 0s and 1s in the specs file. IF YOUR PROGRAM DOES NOT WORK ON SIMPLE
+2-D ARRAYS AS GIVEN IN THE TEXT BOOK YOU WILL NOT GET ANY CREDIT. 
+
+7. Do not start typing the array while giving the demo. Use previously saved
+specs files with appropriate arrays. 
+
+8. YOU MAY PREPARE A REPORT IN PDF OF DOC IN WHICH YOU CAN LIST ALL YOUR
+RESULTS (INPUT IMAGES AND CORRESPONDING OUTPUT IMAGES). 
+

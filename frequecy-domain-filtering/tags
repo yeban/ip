@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+band_reject	solution.cpp	/^IplImage* band_reject(const IplImage *dft, const int cutoff, const int width){$/;"	f
+butterworth_high_pass	solution.cpp	/^IplImage* butterworth_high_pass(const IplImage *dft, const int cutoff, const int order){$/;"	f
+butterworth_low_pass	solution.cpp	/^IplImage* butterworth_low_pass(IplImage *dft, const int cutoff, const int order){$/;"	f
+butterworth_notch	solution.cpp	/^IplImage* butterworth_notch(const IplImage *dft, const int cutoff, const int order){$/;"	f
+centering	solution.cpp	/^IplImage* centering(const IplImage *src){$/;"	f
+compute_dft	solution.cpp	/^IplImage *compute_dft(const IplImage *src){$/;"	f
+compute_output	solution.cpp	/^IplImage* compute_output(const IplImage* filtered){$/;"	f
+get_dft	solution.cpp	/^IplImage* get_dft(const IplImage *dft){$/;"	f
+ideal_high_pass	solution.cpp	/^IplImage* ideal_high_pass(const IplImage *dft, const int cutoff){$/;"	f
+ideal_low_pass	solution.cpp	/^IplImage* ideal_low_pass(const IplImage *dft, int cutoff){$/;"	f
+laplacian	solution.cpp	/^IplImage* laplacian(const IplImage *dft){$/;"	f
+main	solution.cpp	/^int main(int argv, char **argc){$/;"	f
+mouseHandler	solution.cpp	/^void mouseHandler( int event, int x, int y, int flags, void *param){$/;"	f
+show_image	solution.cpp	/^void show_image(const IplImage *image){$/;"	f

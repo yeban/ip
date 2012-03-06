@@ -1,0 +1,5 @@
+source: SampleImages/3.tif
+output: results/bhp_2.tif
+filter: BHP
+cutoff: 30
+order: 2

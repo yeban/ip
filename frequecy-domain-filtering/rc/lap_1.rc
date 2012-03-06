@@ -1,0 +1,3 @@
+source: SampleImages/8.tif
+output: results/lap_1.tif
+filter: LAP

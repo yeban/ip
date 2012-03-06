@@ -1,0 +1,5 @@
+source: SampleImages/3.tif
+output: results/blp_3.tif
+filter: BLP
+cutoff: 60
+order: 2

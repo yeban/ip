@@ -1,0 +1,4 @@
+source: SampleImages/3.tif
+output: results/ihp_4.tif
+filter: IHP
+cutoff: 160

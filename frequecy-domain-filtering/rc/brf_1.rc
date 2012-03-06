@@ -1,0 +1,5 @@
+source: SampleImages/4.tif
+output: results/brf_1.tif
+filter: BRF
+cutoff: 50
+width: 20
