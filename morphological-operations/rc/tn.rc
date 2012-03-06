@@ -1,0 +1,4 @@
+source:SampleImages/tn.mask
+task:TN
+kernel:kernels/cross_3x3.tif
+result:results/tn_1.tif

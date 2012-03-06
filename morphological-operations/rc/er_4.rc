@@ -1,0 +1,4 @@
+source:SampleImages/1.tif
+task:ER
+kernel:kernels/rect_45x45.tif
+result:results/er_4.tif

@@ -1,0 +1,4 @@
+source:SampleImages/er.mask
+task:ER
+kernel:kernels/cross_3x3.tif
+result:results/er_1.tif

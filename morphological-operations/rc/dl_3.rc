@@ -1,0 +1,4 @@
+source:SampleImages/dl.mask
+task:DL
+kernel:kernels/dl_k.mask
+result:results/er_2.tif

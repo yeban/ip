@@ -1,0 +1,145 @@
+Assignment 1
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+Deadline: October 1st Week 2009. 
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+
+
+
+========================================
+OBJECTIVES: 
+========================================
+
+Implement the BASIC morphological operations: 
+
+1. Erosion
+2. Dilation
+3. Opening 
+4. Closing
+5. Hit and Miss Transform
+
+Each of these operations must be implemented as a separate function accepting
+parameters related to the input image, the structuring element (again as an
+image), and the output image to be returned. 
+The structuring element should be specified in the IPL image format.   
+
+
+Using the basic morphological operations implement the following morphological
+techniques on binarized images. 
+
+1. Boundary extraction
+2. Hole filling
+3. Extraction of connected components
+4. Convex Hull
+5. Thinning and Thickening
+6. Skeletonizing
+7. Pruning
+
+All these techniques must correspond to a separate function in your program.
+These functions should accept the input image as the parameter and perform the
+task by making calls to the BASIC morphological functions. 
+
+
+========================================
+INTERFACE to the software: 
+========================================
+
+The interface to the software will be through a specification file. 
+Your program will read the specification file and do the specified task, 
+and dump the processed output results in specified files. 
+
+The input format in the specification file is as follows. 
+
+Input image file name: 
+Input mask/pattern file name: 
+Morphological task: [ER/ DL/ OP/ CL/ HM/ BE/ HF/ CC/ TN/ TH/ SK/ PR/] 
+Output file name: 
+
+Mask/Pattern Array: 
+Size: 
+Array data entered row wise: 
+
+
+Input Array: 
+++++
+Size: 
+Array data entered row wise: 
+
+
+
+================================
+Description of the specification file: 
+The first line of the specification file will specify the input image
+filename. If the input file name is specified "nil" then the input will be
+scanned in the form of a 2-D array of 0s and 1s indicative of the pattern to
+be read.  
+
+The file name containing the mask or the pattern to be detected (in the case
+of hit and miss transform) must be specified. If a "nil" is entered then 
+the mask array will be scanned in the form of a 2-D array of 0s and 1s indicative of the pattern to
+be read.  
+
+The morphological task is specified in the form of a code: ER: erosion, DL:
+dilation, etc. The program should be performing this operation without
+recompilation. 
+
+The output file name indicates the file in which the output is to be stored.
+If it is specified as "nil" then the output image should be printed on the
+screen in the form of a 2-D array of 0s and 1s. 
+
+The 2-D array data for the input image or the mask is to be specified as
+follows. For example 
+
+++++
+5 5
+0	0	1	0	0
+0	1	1	1	0
+1	1	1	1	1
+0	1	1	1	0
+0	0	1	0	0
+
+In the above lines the ++++ indicates that whatever follows is a 2-D array. 
+5 5 indicates the size of the array [width height] 
+The number of remaining lines must be equal to the height of the array. 
+The 2-D array is specified row-wise. 
+
+So in your specification file you would be specifying two such 2-D arrays if
+required. One for the mask and the other for the input image. 	
+If any of them is being read in the form of an image file then the
+corresponding 2-D array need not be specified. 
+
+
+
+===========================================
+WHEN YOU COME TO GIVE YOUR DEMO
+===========================================
+
+1. You should keep multiple such specification files ready. Each file should
+be given a different name. 
+
+2. When you are asked to show the result of a particular morphological
+operation you can run your program with the concerned specification file (as
+command line argument) and show the result. You should be able to show the
+result on several input cases simply by giving a different specification file.  
+
+3. Be ready with the explanations for your results. 
+
+4. Your source code will be checked. Hence you need to submit your source
+code. 
+
+5. Do not make changes in your program while giving the demo. 
+
+6. Demonstration has to be made on Fedora 10 platform with OpenCV 1.0 (the
+Desktop in my office). 
+
+7. The program should be run on the illustrative examples shown in the book.
+All input arrays of binary images used in the book should be specified as 2-D
+array of 0s and 1s in the specs file. IF YOUR PROGRAM DOES NOT WORK ON SIMPLE
+2-D ARRAYS AS GIVEN IN THE TEXT BOOK YOU WILL NOT GET ANY CREDIT. 
+
+8. Do not start typing the array while giving the demo. Use previously saved
+specs files with appropriate arrays. 
+
+9. YOU MAY PREPARE A REPORT IN PDF OF DOC IN WHICH YOU CAN LIST ALL YOUR
+RESULTS (INPUT IMAGES AND CORRESPONDING OUTPUT IMAGES). 
+

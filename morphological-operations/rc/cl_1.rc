@@ -1,0 +1,4 @@
+source:results/op_1.tif
+task:CL
+kernel:kernels/rect_3x3.tif
+result:results/el_1.tif

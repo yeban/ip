@@ -1,0 +1,4 @@
+source:SampleImages/20.tif
+task:CC
+kernel:kernels/rect_5x5.tif
+result:results/cc_2.tif

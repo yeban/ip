@@ -1,0 +1,4 @@
+source:SampleImages/21.tif
+task:OP
+kernel:kernels/rect_3x3.tif
+result:results/op_2.tif
